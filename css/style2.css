@@ -1,0 +1,232 @@
+.gallery-wrap {
+	width: 50%;
+	height: 1066px;
+	margin: 0 auto;
+	display: flex;
+}
+.gallery-row{
+	width: 32%;
+	max-height: 497px;
+	overflow-y: scroll;
+}
+
+.gallery-column {
+	padding: 10px;
+}
+
+.gallery-column img {
+	width: 100%;
+	opacity: 0.8; 
+	cursor: pointer; 
+}
+
+.gallery-column img:hover {
+	opacity: 1;
+}
+
+
+.gallery-container {
+	position: relative;
+	width: 90%;
+	height: 500px;
+}
+
+#expandedImg {
+	width: 100%;
+	height: 100%;
+}
+
+/* Custom Scroll bar */
+
+.gallery-row::-webkit-scrollbar {
+	width: 15px;
+}
+.gallery-row::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background: aliceblue;
+}
+
+.gallery-row::-webkit-scrollbar-thumb {
+	background: #77b6ec; 
+	border-radius: 10px;
+}
+
+.gallery-row::-webkit-scrollbar-thumb:hover {
+	background: #207fd2; 
+}
+
+/* FAQ content */
+
+
+
+
+
+/* login content */
+
+
+
+
+/*Start Global Style*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background:#e9ebee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  font-family: sans-serif;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+height:100%
+}
+
+.login ,.register{width: 50%}
+
+/*Start Login Style*/
+.login{
+  float:left;
+  background-color: #fafafa;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  padding-top: 100px;
+}
+.login h1{
+  margin-bottom: 40px;
+  font-size: 2.5em;
+}
+
+input[type="email"] , input[type="password"]{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: #eeeeef;
+}
+input[type="checkbox"]{
+  float: left;
+  margin-right: 5px;
+}
+.login span{
+  float: left
+}
+.login a{
+  float: right;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s all ease-in-out;
+}
+.login a:hover{color: #1700FF;;font-weight: bold}
+.login button{
+  width: 100%;
+  margin: 30px 0;
+  padding: 10px;
+  border: none;
+  background-color: #1700FF;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+.login button:hover{
+  width:97%;
+  font-size: 22px;
+  border-radius: 5px;
+  
+}
+.login hr{
+  width: 30%;
+  display: inline-block
+}
+
+.login p{
+  display: inline-block;
+  margin: 0px 10px 30px;
+}
+.login ul{
+  list-style: none;
+  margin-bottom:40px;  
+}
+.login ul li{
+  display: inline-block;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.login ul li:hover{opacity: 0.6}
+.login ul li:last-child{margin-right: 0}
+.login .copyright{
+  display: inline-block;
+  float: none;
+}
+/*Start Register Style*/
+.register{
+  float: right;
+  background-image: linear-gradient(135deg, #021d04 5%, #1700FF 95%);
+  height: 100%;
+  color:#fff;
+  border-radius:  0 10px 10px  0;
+  text-align: center;
+  padding: 100px 0;
+}
+.register h2{
+  margin: 30px 0;
+  font-size: 50px;
+  letter-spacing: 3px
+}
+.register p{
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.register button{
+  background-color: transparent;
+  border: 1px solid #FFF;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition:0.2s all  ease-in-out;
+}
+.register button:hover{
+  color: #1700FF;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/*call stlye*/
+
+
+.buttcont{
+  display: flex;
+  gap: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Start Register Style*/
